@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Mounika Portfolio</title>
+              <link rel="stylesheet" href="index.css">
+              <script src="index.js"></script>
+              <script src="https://unpkg.com/aos@next/dist/aos.js">AOS.init({offset:0});
+            </script>
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+                </head>
+              <body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Mounika</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"><i class="fa-solid fa-house m-2" style=  "color:  #AD56C4;"></i><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200"><i class="fa-solid fa-user m-2" style="color: #AD56C4;;"></i><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300"><i class="fa-solid fa-file-lines m-2" style="color: #AD56C4;;"></i><a href="#skill">My Skills</a></div>
+                <div class="link" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400"><i class="fa-solid fa-briefcase m-2" style="  color: #AD56C4;;"></i><a href="#works">My Works</a></div>
+                <div class="link" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500"><i class="fa-solid fa-address-card m-2" style="  color: #AD56C4;;"></i><a href="#contact">Contact Me</a></div>
+                <div class="contact-btn" class="new" ><a href="Certificates/Resume(Mounika).pdf" download target="_blank">Download Resume</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg m-3" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#skill">My Skills</a>
+                <a href="#works">My Works</a>
+                <a href="#contact">Contact Me</a>
+                <a href="Certificates/Resume(Mounika).pdf" download>Download Resume</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class="main-container">
+           <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+              <img src="https://img.itch.zone/aW1nLzEyOTU1NTg0LnBuZw==/original/Uz3H%2Bd.png" alt="Your Image" />
+           </div>
+           <div class="content-social">
+              <div class="content">
+                 <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800" class="cursor typewriter-animation">Hey I'm <span>Mounika Bindu Uppalapati</span></h1>
+                 <p class="typewriter" data-aos-duration="1000" data-aos-delay="900">I'm a <span class="cursor typewriter-animation"></span></p>
+              </div>
+              <div class="hireme">
+                <button type="button" class="btn btn-light" ><a href="#contact" style="background-color: transparent; text-decoration: none; color: black;">Hire Me</a></button>
+              </div>
+              <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                 <a href="https://github.com/Mounika3110" ><i class="fa-brands fa-github"></i></a>
+                 <a href="https://www.facebook.com/mounika.varma.790693/"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="https://www.linkedin.com/in/mounika-bindu-uppalapati-724822251/"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://x.com/mounika31110"><i class="fa-brands fa-x-twitter"></i></a>
+              </div>
+           </div>
+        </div>  
+     </section>  
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+
+<!----------- about------------->
+<div id="about">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="row" >
+                     <div class="col-6">
+                           <h1 class="sub-title">About Me</h1>
+                     </div>
+                     <div class="col-6 ">
+                     <p>Hello! I’m Uppalapati Mounika Bindu, a UI/UX Developer who thrives at the intersection of design and development. With a passion for both the aesthetic side of design and the technical aspects of front-end development, I specialize in creating seamless, user-friendly experiences that work across all devices. My goal is to bridge the gap between design and development by ensuring that the final product not only looks great but is also functional, fast, and accessible.</p>
+              <div class="tab-titles">
+                     <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                     <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links" onclick="opentab('project')">Projects</p>
+              </div>              
+              <div class="tab-contents active-tab" id="education">
+                                  <ul>
+                                         <li><span>2020-2024</span><br>Lendi Institute Of Engineering and Techonology </li>
+                                         <li><span>2018-2020</span><br>Narayana Junior College</li>
+                                         <li><span>2017-2018</span><br>St'Joshep's English Medium High School</li>
+                                  </ul>
+                           </div>
+              <div class="tab-contents" id="skills">
+                     <ul>
+                            <li><span>UI/UX</span><br>Designing & Developing Web/App interfaces </li>
+                           <li class="btn btn-light" style="background-color: #AD56C4;"><a href="" download target="_blank" style="text-decoration: none; background-color: transparent; color: black;">Certificate</a></li></span> 
+                     </ul>
+              </div>
+              <div class="tab-contents" id="project">
+                     <ul>
+                            <li><span>PyAssist: Building a Python-Based Personal Assistant (MINI)
+                            </span><br>Developed and PyAssist, a Python-based personal assistant, incorporating technologies like Speech Recognition, API, and Pyttsx3 </li>
+                            <li><span>Data-Driven Due Diligence: Uncovering Business Potential (MINOR)</span><br>Spearheaded a project focused on implementing data-driven due diligence for entrepreneurs across diverse domains, including education and real estate</li>
+                     </ul>
+              </div>
+              </div>
+                    </div>         
+</div>
+<!-------------------------------Skills--------------------------------------->
+<div id="skill" data-aos="fade-up" data-aos-duration="1000">
+    <div class="title my-5">
+        <h1>My Skills</h1>
+    </div>
+
+    <div class="container">
+        <div class="skill-end">
+            <h3>Frontend</h3>
+        </div>
+        <div class="skills-container">
+            <div class="skill-card">
+                <img src="https://static-00.iconduck.com/assets.00/html-icon-1451x2048-69sehqrp.png">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://w7.pngwing.com/pngs/224/77/png-transparent-website-web-internet-css-style-css3-technology-social-media-logos-i-flat-colorful-icon.png">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png">
+                <h3>React</h3>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174881.png">
+                <h3>WordPress</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill-end">
+        <h3>Backend</h3>
+    </div>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png">
+            <h3>Python</h3>
+        </div>
+        <div class="skill-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRup1AjLs73BTKaUXRedm-RiOMsbfGQ6zucUg&s">
+            <h3>SQL</h3>
+        </div>
+    </div>
+
+    <div class="skill-end">
+        <h3>Designing</h3>
+    </div>
+    <div class="skills-container">
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/800px-Adobe_Photoshop_CC_icon.svg.png">
+            <h3>Adobe Photoshop</h3>
+        </div>
+        <div class="skill-card">
+            <img src="https://static-00.iconduck.com/assets.00/figma-icon-2048x2048-lvgft610.png">
+            <h3>Figma</h3>
+        </div>
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2101px-Adobe_Illustrator_CC_icon.svg.png">
+            <h3>Illustrator</h3>
+        </div>
+    </div>
+</div>
+<script>
+    AOS.init();
+</script>
+<!-------------------------------Work--------------------------------------->
+<div id="works" data-aos="fade-up" data-aos-duration="1000">
+    <div class="works-content">
+        <h1>My Works</h1>
+    </div>
+
+    <div class="projects_filter">
+        <ul class="filter list">
+            <li class="active" data-content="all">All Works</li>
+            <li data-content="development">Development Works</li>
+            <li data-content="designing">Designing Works</li>
+            <li data-content="figma">Figma Works</li>
+        </ul>
+    </div>
+
+    <div class="workcontent-section">
+        <div class="workcontent all active">
+            <h2>All</h2>
+            <div class="image-containers1">
+                <h3>Html, CSS, Bootstrap</h3>
+                <img src="https://img-c.udemycdn.com/course/750x422/3859486_e86f.jpg" alt="">
+                <div class="overlay">
+                    <a href="https://bindu31.github.io/html/" target="_blank"><button> Preview</button></a>
+                    <a href="https://github.com/Bindu31/html.git" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1">
+                <h3>JavaScript</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrG1Ie_kYWcgjItUeWrad9a1xuZrsQYZB3g&s" alt="" width="750px">
+                <div class="overlay">
+                    <a href="https://mounika3110.github.io/jsworks/" target="_blank"><button>Preview</button></a>
+                    <a href="https://github.com/Mounika3110/jsworks.git" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1">
+                <h3>React JS</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAchwXzctzezPSzQA7e-deh5OVLHKtQjUpHw&s" alt="">
+                <div class="overlay">
+                    <a href="https://mounika3110.github.io/reactworks/" target="_blank"><button>Preview</button></a>
+                    <a href="https://github.com/Mounika3110/reactworks.git" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+
+            <div id="additionalContent" style="display: none;">
+            <div class="image-containers1">
+                <h3>Flyer</h3>
+                <img src="Certificates/anirudhpost.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/anirudhpost.jpg" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+            <div class="image-containers1">
+                <h3>Poster</h3>
+                <img src="Certificates/travel poster .jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/poster travel.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Poster</h3>
+                <img src="Certificates/shoping.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/shoping flyer.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Flyer</h3>
+                <img src="Certificates/Traveling-flyer.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/flyer Traveling.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Flyer</h3>
+                <img src="Certificates//mockey job.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/flyer -job.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+            <div class="image-containers1 ">
+                <h3>Flyer</h3>
+                <img src="Certificates/school flyer.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/flyer school.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+            <div class="image-containers1 ">
+                <h3>WordPress</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ekBQgUi_dZnzoTGM6t1JZ30NpHZgpxzoCQ&s" alt="">
+                <div class="overlay">
+                    <a href="https://dev-mounika3110.pantheonsite.io/" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Woo Commerce</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGa5pBD9R5U-vADVkyl3FrDbRsSFAGkjTVw&s" alt="">
+                <div class="overlay">
+                    <a href="https://dev-mounika-dynamic.pantheonsite.io/" target="_blank"><button>Preview</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Figjam</h3>
+                <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/56eb317e-20b4-4a7d-a55b-80289c6a812f.jpeg?auto=format&q=50" alt="" target="_blank">
+                <div class="overlay">
+                    <a href="https://www.figma.com/board/28bd4EimMOcmTkzxxYeuLW/Untitled?node-id=0-1&p=f&t=qebn3IWgStqE3cIU-0" target="_blank"><button>Preview</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Figma</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-ArA15hT4bF72WyIx88cr6vhzrr5ylK_nPQ&s" alt="">
+                <div class="overlay">
+                    <a href="https://www.figma.com/design/stb8D3YyIif0FlCWDjrJKg/instagram?node-id=0-1&p=f&t=LMc0XrxkfhkpOOHt-0" target="_blank"><button>Design</button></a>
+                    <a href="https://www.figma.com/proto/stb8D3YyIif0FlCWDjrJKg/instagram?node-id=12-85&p=f&t=LMc0XrxkfhkpOOHt-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=12%3A85&show-proto-sidebar=1" target="_blank"><button>Preview</button></a>
+                </div>
+            </div>
+            <div class="image-containers1 ">
+                <img src="https://www.appgefahren.de/wp-content/uploads/2022/11/instagram-desktop-web.jpg" alt="">
+                <h3>Figma Web Application</h3>
+                <div class="overlay">
+                    <a href="https://www.figma.com/design/W5bafQK8cM79G39sgaMpSX/Web-application?t=qebn3IWgStqE3cIU-0"><button>Design</button></a>
+                    <a href="https://www.figma.com/proto/W5bafQK8cM79G39sgaMpSX/Web-application?t=qebn3IWgStqE3cIU-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=16-3&starting-point-node-id=16%3A3&show-proto-sidebar=1"><button>Preview</button></a>
+                </div>
+            </div>
+        </div>
+        <button id="moreButton" class="btn btn-light" style="color:#AD56C4; margin-top: 30px;" onclick="showMore()">More</button>
+    </div>
+</div>    
+    
+    <div class="development">
+        <div class="workcontent development">
+            <h2>Development Works</h2>
+            <div class="image-containers1 ">
+                <img src="https://img-c.udemycdn.com/course/750x422/3859486_e86f.jpg" alt="">
+                <h3>Html, CSS, Bootstrap</h3>
+                <div class="overlay">
+                    <a href="https://bindu31.github.io/html/" target="_blank"><button>Preview</button></a>
+                    <a href="https://github.com/Bindu31/html.git" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRrG1Ie_kYWcgjItUeWrad9a1xuZrsQYZB3g&s" alt="" width="750px">
+                <h3>JavaScript</h3>
+                <div class="overlay">
+                    <a href="https://mounika3110.github.io/jsworks/" target="_blank"><button>Preview</button></a>
+                    <a href="https://github.com/Mounika3110/jsworks.git" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAchwXzctzezPSzQA7e-deh5OVLHKtQjUpHw&s" alt="">
+                <h3>React JS</h3>
+                <div class="overlay">
+                    <a href="https://mounika3110.github.io/reactworks/" target="_blank"><button>Preview</button></a>
+                    <a href="https://github.com/Mounika3110/reactworks.git" target="_blank"><button>Source Code</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="designing">
+        <div class="workcontent designing">
+            <h2>Designing Works</h2>
+            <div class="image-containers1 ">
+                <h3>WordPress</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ekBQgUi_dZnzoTGM6t1JZ30NpHZgpxzoCQ&s" alt="">
+                <div class="overlay">
+                    <a href="https://dev-mounika3110.pantheonsite.io/" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Woo Commerce</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlGa5pBD9R5U-vADVkyl3FrDbRsSFAGkjTVw&s" alt="">
+                <div class="overlay">
+                    <a href="https://dev-mounika-dynamic.pantheonsite.io/" target="_blank"><button>Preview</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Flyer</h3>
+                <img src="Certificates/anirudhpost.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/Anirudh.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1">
+                <h3>Poster</h3>
+                <img src="Certificates/travel poster .jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/poster travel.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Poster</h3>
+                <img src="Certificates/shoping.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/shoping flyer.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <h3>Flyer</h3>
+                <img src="Certificates/school flyer.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/flyer school.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <img src="Certificates/Traveling-flyer.jpg" alt="">
+                <h3>Flyer</h3>
+                <div class="overlay">
+                    <a href="Certificates/flyer Traveling.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+            <div class="image-containers1 ">
+                <h3>Flyer</h3>
+                <img src="Certificates//mockey job.jpg" alt="">
+                <div class="overlay">
+                    <a href="Certificates/flyer -job.png" target="_blank"><button>View All</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="figma">
+        <div class="workcontent figma">
+            <h2>Figma Works</h2>
+            <div class="image-containers1 ">
+                <img src="https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/56eb317e-20b4-4a7d-a55b-80289c6a812f.jpeg?auto=format&q=50" alt="">
+                <h3>Figjam</h3>
+                <div class="overlay">
+                    <a href="https://www.figma.com/board/28bd4EimMOcmTkzxxYeuLW/Untitled?node-id=0-1&p=f&t=qebn3IWgStqE3cIU-0"><button>Preview</button></a>
+                </div>
+            </div>
+
+            <div class="image-containers1 ">
+                <img src="https://static1.pocketlintimages.com/wordpress/wp-content/uploads/152715-apps-news-how-to-change-your-instagram-username-on-the-app-or-web-image1-czimduh0ot.jpg" alt="">
+                <h3>Figma Mobile</h3>
+                <div class="overlay">
+                    <a href="https://www.figma.com/design/kmPMpooGKLfZRwp4mFD47C/Gaana?t=Dx4KU7fPgfyMyTh1-0"><button>Design</button></a>
+                    <a href="https://www.figma.com/proto/kmPMpooGKLfZRwp4mFD47C/Gaana?t=Dx4KU7fPgfyMyTh1-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&node-id=1-2&starting-point-node-id=1%3A2&show-proto-sidebar=1"><button>Preview</button></a>
+                </div>
+            </div>
+            <div class="image-containers1 ">
+                <img src="https://www.appgefahren.de/wp-content/uploads/2022/11/instagram-desktop-web.jpg" alt="">
+                <h3>Figma Web Application</h3>
+                <div class="overlay">
+                    <a href="https://www.figma.com/design/W5bafQK8cM79G39sgaMpSX/Web-application?t=qebn3IWgStqE3cIU-0"><button>Design</button></a>
+                    <a href="https://www.figma.com/proto/W5bafQK8cM79G39sgaMpSX/Web-application?t=qebn3IWgStqE3cIU-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&node-id=16-3&starting-point-node-id=16%3A3&show-proto-sidebar=1"><button>Preview</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.querySelectorAll('.projects_filter li').forEach(tab => {
+    tab.addEventListener('click', function() {
+        document.querySelectorAll('.projects_filter li').forEach(tab => {
+            tab.classList.remove('active');
+        });
+
+        this.classList.add('active');
+
+        const contentType = this.getAttribute('data-content');
+
+        document.querySelectorAll('.workcontent').forEach(content => {
+            content.classList.remove('active');
+        });
+
+        document.querySelector(`.workcontent.${contentType}`).classList.add('active');
+    });
+});
+
+      function showMore() {
+        var content = document.getElementById('additionalContent');
+        var button = document.getElementById('moreButton');
+        
+        if (content.style.display === 'none') {
+          content.style.display = 'block';
+          button.textContent = 'Show Less'; 
+        } else {
+          content.style.display = 'none';
+          button.textContent = 'More'; 
+        }
+      }
+</script>
+<!-------------------------------contact--------------------------------------->
+<div id="contact" data-aos="fade-up" data-aos-duration="1000">
+       <div class="container">
+              <h1 class="sub-title">Contact Me</h1>
+          <div class="row">
+             <div class="contact-left">
+                <p><i class="fa-solid fa-paper-plane" style="color: #AD56C4;"></i>mounikavarma2245@gmail.com</p>
+                <p><i class="fa-solid fa-phone" style="color: #AD56C4;"></i>7702347213</p>
+             </div>
+             <div class="contact-right">
+                <form>
+                   <input type="text" name="Name" placeholder="Your Name" required>
+                   <input type="email" name="email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                   <button type="submit">Submit</button>
+                </form>
+             </div>
+          </div>
+       </div>
+    </div>
+    <a href="#">
+        <div class="up">
+           <i class="fa-solid fa-angle-up" style="color: rgb(0, 0, 0); background-color: #AD56C4;"></i>
+       </div>
+</body>
+</html>
