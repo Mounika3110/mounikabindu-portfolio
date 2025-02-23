@@ -440,6 +440,113 @@ section {
   }
 }
 
+#about {
+  padding: 80px 0;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.center-content {
+  text-align: center; /* Align content to center */
+}
+
+.sub-title {
+  color: #AD56C4;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+  justify-content: center; /* Center the tabs horizontally */
+}
+
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #AD56C4;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 0.5s;
+}
+
+.tab-links.active-link::after {
+  width: 50%;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.tab-contents ul li span {
+  color: #AD56C4;
+  font-size: 14px;
+}
+
+.tab-contents {
+  display: none;
+}
+
+.tab-contents.active-tab {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .col-6{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .sub-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+      }
+
+  .tab-titles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-links {
+    margin-right: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .tab-contents ul li {
+    font-size: 14px;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .tab-contents ul li span {
+    font-size: 12px;
+  }
+}
 
 /*---------------SKILLS-------*/
 .title{
